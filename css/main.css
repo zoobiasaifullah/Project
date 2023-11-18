@@ -1,0 +1,59 @@
+
+body{
+ background-color: black;
+ color: white;
+ font-family: "Franklin Gothic" ;
+ font-size: 13px;
+}
+#brandlogo {
+ float: left;
+ height: 80px;
+ width: 80px;
+}
+.nav-brand {
+ color: white;
+}
+#nav_menu{
+ max-width: 100%;
+ overflow-x: hidden;
+ position:sticky;
+}
+#nav_menu ul {
+ list-style: none;
+ padding: 0;
+ margin: 0;
+}
+#nav_menu ul li{
+ text-align: center;
+ display: block;
+ padding: 10px;
+ background-color: #ffe6ee;
+ margin: 0;
+ color: black;
+ font-size: 12px;
+ font-weight: bold;
+}
+.form-group{
+ float: left;
+ text-align: center;
+}
+#carousel {
+ margin: auto;
+ max-width: 100%;
+}
+h3 a{
+ text-align: center;
+ color: white;
+ text-decoration: none;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
