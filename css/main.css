@@ -1,9 +1,21 @@
-
+ *{
+ margin: 0;
+ padding:0;
+ box-sizing: border-box;
+ }
+ a{
+ text-decoration: none;
+ color: white;
+ }
 body{
  background-color: black;
  color: white;
  font-family: "Franklin Gothic" ;
  font-size: 13px;
+}
+#head h1{
+text-shadow: 1.5px 1.5px white;
+color: #ffe6ee;
 }
 #brandlogo {
  float: left;
@@ -29,9 +41,11 @@ body{
  padding: 10px;
  background-color: #ffe6ee;
  margin: 0;
- color: black;
  font-size: 12px;
  font-weight: bold;
+}
+#nav_menu ul li a{
+color: black;
 }
 .form-group{
  float: left;
@@ -41,10 +55,22 @@ body{
  margin: auto;
  max-width: 100%;
 }
-h3 a{
+h3 {
  text-align: center;
- color: white;
- text-decoration: none;
+ margin: 55px;
+ padding: 30px;
+}
+#carousel {
+ margin: 55px;
+ padding: 30px;
+}
+.card{
+ margin: 55px;
+ border:0;
+ background-color: black;
+}
+.card h5{
+ text-align: center;
 }
 .footer {
     position: fixed;
