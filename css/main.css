@@ -13,6 +13,15 @@ body{
  font-family: "Franklin Gothic" ;
  font-size: 13px;
 }
+.nav-item a{
+color: white;
+}
+.dropdown-menu{
+background-color: #ffe6ee;
+}
+.dropdown-menu a {
+color: black;
+}
 #head h1{
 text-shadow: 1.5px 1.5px white;
 color: #ffe6ee;
@@ -25,28 +34,7 @@ color: #ffe6ee;
 .nav-brand {
  color: white;
 }
-#nav_menu{
- max-width: 100%;
- overflow-x: hidden;
- position:sticky;
-}
-#nav_menu ul {
- list-style: none;
- padding: 0;
- margin: 0;
-}
-#nav_menu ul li{
- text-align: center;
- display: block;
- padding: 10px;
- background-color: #ffe6ee;
- margin: 0;
- font-size: 12px;
- font-weight: bold;
-}
-#nav_menu ul li a{
-color: black;
-}
+
 .form-group{
  float: left;
  text-align: center;
