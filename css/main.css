@@ -1,73 +1,43 @@
- *{
- margin: 0;
- padding:0;
- box-sizing: border-box;
- }
- a{
- text-decoration: none;
- color: white;
- }
-body{
- background-color: black;
- color: white;
- font-family: "Franklin Gothic" ;
- font-size: 13px;
-}
-.nav-item a{
+h2{
 color: white;
-}
-.dropdown-menu{
-background-color: #ffe6ee;
-}
-.dropdown-menu a {
-color: black;
-}
-#head h1{
-text-shadow: 1.5px 1.5px white;
-color: #ffe6ee;
-}
-#brandlogo {
- float: left;
- height: 80px;
- width: 80px;
-}
-.nav-brand {
- color: white;
+margin: 20px;
+padding: 20px;
+text-align: center;
 }
 
-.form-group{
- float: left;
- text-align: center;
+.product {
+  margin-bottom: 20px;
 }
-#carousel {
- margin: auto;
- max-width: 100%;
+
+.product img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
-h3 {
- text-align: center;
- margin: 55px;
- padding: 30px;
+.product h5, p{
+  font-family: sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
 }
-#carousel {
- margin: 55px;
- padding: 30px;
+ @media (max-width: 319px) {
+  .product {
+     flex-grow: 0;
+     flex-shrink: 0;
+     flex-basis:100%;
+     max-width: 100%;
+  }
+  .products img {
+    height: 100%;
+  }
 }
-.card{
- margin: 55px;
- border:0;
- background-color: black;
+button{
+border-radius: 4px;
+padding: 10px 24px;
+border: none;
+background-color: #ffe6ee;
+color: black;
+font-size: 22px;
 }
-.card h5{
- text-align: center;
-}
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    font-size: 0.5rem;
+button:hover:focus {
+color: #f28fe2;
 }
