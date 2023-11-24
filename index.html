@@ -11,14 +11,15 @@
     <link href="css/home.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/fav.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta Clothes for girls by girls>
+    <meta name="description" content=" Clothes for girls by girls">
+
 
 </head>
 <body>
 <!-- Logo and Brand-->
   <header>
       <img alt="Brand Logo" class="d-inline-block align-top" height="60" src="images/fav.ico">
-      <a class="navbar-brand" href="#home">  <h1> Straw B.</h1> </a>
+      <a class="navbar-brand" href="index.html">  <h1> Straw B.</h1> </a>
   </header>
 <!-- Navigation Bar-->
   <nav class="navbar navbar-expand-md">
@@ -30,13 +31,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-md-0">
                   <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#">About Us </a>
+                      <a class="nav-link" href="about.html">About Us </a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#">Contact </a>
+                      <a class="nav-link" href="contact.html">Contact </a>
                   </li>
                   <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -44,11 +45,18 @@
                       </a>
                       <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                           <li><a class="dropdown-item" href="viewall.html">View All</a></li>
-                          <li><a class="dropdown-item" href="#">Tops</a></li>
-                          <li><a class="dropdown-item" href="#">Bottoms</a></li>
+                          <li><a class="dropdown-item" href="tops.html">Tops</a></li>
+                          <li><a class="dropdown-item" href="bottoms.html">Bottoms</a></li>
                       </ul>
                   </li>
               </ul>
+              <a id="cart" target="_self" href="cart.html" class="btn btn-outline-dark" role="button" data-bs-toggle="button">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-heart" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0M14 14V5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1M8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/>
+                  </svg>
+              </a>
+
+
               <form class="d-flex">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                   <button class="btn btn-outline-dark" type="submit">Search</button>
@@ -82,14 +90,14 @@
         </div>
 </div>
 
-    <h3><a href="#">Shop Now.</a></h3>
+    <h3><a href="viewall.html">Shop Now.</a></h3>
 
 <div id="homecards" class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
             <div class="card">
                 <img src="images/all.png" class="card-img-top" alt="View All">
                 <div class="card-body">
-                    <h5 class="card-title"><a href="#">View All</a></h5>
+                    <h5 class="card-title"><a href="viewall.html">View All</a></h5>
                 </div>
             </div>
         </div>
@@ -97,7 +105,7 @@
             <div class="card">
                 <img src="images/tops.png" class="card-img-top" alt="Tops">
                 <div class="card-body">
-                    <h5 class="card-title"><a href="#">Tops</a></h5>
+                    <h5 class="card-title"><a href="tops.html">Tops</a></h5>
                 </div>
             </div>
         </div>
@@ -105,7 +113,7 @@
             <div class="card">
                 <img src="images/jeans.png" class="card-img-top" alt="Bottoms">
                 <div class="card-body">
-                    <h5 class="card-title"><a href="#">Bottoms</a></h5>
+                    <h5 class="card-title"><a href="bottoms.html">Bottoms</a></h5>
                 </div>
             </div>
         </div>

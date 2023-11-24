@@ -41,3 +41,11 @@ font-size: 22px;
 button:hover:focus {
 color: #f28fe2;
 }
+p {
+margin: 0 auto;
+padding: 0 90px;
+}
+#checkout {
+padding-top: 40px;
+margin: 10px auto 80px;
+}

@@ -46,6 +46,9 @@ color: black;
 .dropdown-menu{
 background-color: #ffe6ee;
 }
+#cart {
+margin-right: 10px;
+}
 #carousel {
   margin: 0 auto;
   max-width: 100%;

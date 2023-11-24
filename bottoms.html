@@ -8,9 +8,9 @@
           rel="stylesheet"
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
           crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
     <link href="css/home.css" rel="stylesheet">
-    <link rel="shortcut icon" href="images/fav.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="images/fav.ico">
     <meta name="description" content=" Clothes for girls by girls">
 
 
@@ -37,7 +37,7 @@
                     <a class="nav-link" href="about.html">About Us </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Contact </a>
+                    <a class="nav-link" href="contact.html">Contact </a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -46,7 +46,7 @@
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="viewall.html">View All</a></li>
                         <li><a class="dropdown-item" href="tops.html">Tops</a></li>
-                        <li><a class="dropdown-item" href="bottoms.html">Bottoms</a></li>
+                        <li><a class="dropdown-item current" href="#">Bottoms</a></li>
                     </ul>
                 </li>
             </ul>
@@ -62,50 +62,67 @@
         </div>
     </div>
 </nav>
-        <div class="container" style="padding-top: 40px;">
-          <div class="row">
-            <form action="">
-                <div class="form-group">
-                    <label for="firstname">First Name:</label>
-                    <input type="text" class="form-control" id="firstname"
-                           placeholder="First name" name="firstname">
-                </div>
-                <div class="form-group">
-                    <label for="lastname">Last Name:</label>
-                    <input type="text" class="form-control" id="lastname"
-                           placeholder="Last name" name="lastname">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" class="form-control" id="email"
-                           placeholder="Enter email" name="email">
-                </div>
-                <div class="form-group form-check">
-                    <label class="form-check-label">
-                        <input class="form-check-input"
-                               type="checkbox" name="subscribe"> Subscribe
-                    </label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-        </row>
-</div>
-        </div>
- <footer class="footer page-footer font-small ">
-     <div class="container">
-        <div class="row">
-            <span class="text-muted">&copy; Zoobia Saifullah Syeda, 2023 |  Terms Of Use  |  Privacy Statement</span>
-        </div>
-     </div>
-  </footer>
-</div>
 
+<!-- Main-->
+
+<h2> Bottoms <h2>
+
+    <main class="products container">
+        <div class="row">
+            <div class="product col-md-4">
+                <img src="images/bot2.jpg" alt="Ripped Straight Jeans">
+                <h5>Ripped Straight Jeans</h5>
+                <p class="price">$40</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product col-md-4">
+                <img src="images/bot3.jpg" alt="Stone Washed Cargos">
+                <h5>Stone Washed Cargos</h5>
+                <p class="price">$50</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product col-md-4">
+                <img src="images/bot1.jpg" alt="Washed Mom Jeans">
+                <h5>Washed Mom Jeans</h5>
+                <p class="price">$38</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="product col-md-4">
+                <img src="images/bot5.jpg" alt="Gray Cargos">
+                <h5>Gray Cargos</h5>
+                <p class="price">$40</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product col-md-4">
+                <img src="images/bot4.jpg" alt="Black Cargos">
+                <h5>Black Cargos</h5>
+                <p class="price">$35</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product col-md-4">
+                <img src="images/bot6.jpg" alt="Wide-leg Track Pants">
+                <h5>Track Pants</h5>
+                <p class="price">$35</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer page-footer font-small ">
+        <div class="container">
+            <div class="row">
+                <span class="text-muted">&copy; Zoobia Saifullah Syeda, 2023 |  Terms Of Use  |  Privacy Statement</span>
+            </div>
+        </div>
+    </footer>
 
     <!-- Javascript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous">
-</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous">
+    </script>
 
 </body>
 </html>

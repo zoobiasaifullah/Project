@@ -10,15 +10,16 @@
           crossorigin="anonymous">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/home.css" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="images/fav.ico">
-    <meta Clothes for girls by girls>
+    <link rel="shortcut icon" type="image/x-icon" href="images/fav.ico">
+    <meta name="description" content=" Clothes for girls by girls">
+
 
 </head>
 <body>
 <!-- Logo and Brand-->
 <header>
     <img alt="Brand Logo" class="d-inline-block align-top" height="60" src="images/fav.ico">
-    <a class="navbar-brand" href="#home">  <h1> Straw B.</h1> </a>
+    <a class="navbar-brand" href="index.html">  <h1> Straw B.</h1> </a>
 </header>
 <!-- Navigation Bar-->
   <nav class="navbar navbar-expand-md">
@@ -30,25 +31,30 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Us </a>
+                    <a class="nav-link" href="about.html">About Us </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact </a>
+                    <a class="nav-link" href="contact.html">Contact </a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Clothing
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">View All</a></li>
-                        <li><a class="dropdown-item" href="#">Tops</a></li>
-                        <li><a class="dropdown-item" href="#">Bottoms</a></li>
+                        <li><a class="dropdown-item current" href="#">View All</a></li>
+                        <li><a class="dropdown-item" href="tops.html">Tops</a></li>
+                        <li><a class="dropdown-item" href="bottoms.html">Bottoms</a></li>
                     </ul>
                 </li>
             </ul>
+            <a id="cart" href="cart.html" class="btn btn-outline-dark" role="button" data-bs-toggle="button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-heart" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0M14 14V5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1M8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/>
+                </svg>
+            </a>
             <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-dark" type="submit">Search</button>
@@ -120,6 +126,26 @@
             <h5>Black Cargos</h5>
             <p class="price">$35</p>
             <button>Add to Cart</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="product col-md-4">
+            <img src="images/top1.jpg" alt="Graphic Long Sleeve Top">
+            <h5>Graphic Long Sleeve Top</h5>
+            <p class="price">$22</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product col-md-4">
+              <img src="images/bot5.jpg" alt="Gray Cargos">
+              <h5>Gray Cargos</h5>
+              <p class="price">$40</p>
+              <button>Add to Cart</button>
+        </div>
+        <div class="product col-md-4">
+              <img src="images/bot6.jpg" alt="Wide-leg Track Pants">
+              <h5>Track Pants</h5>
+              <p class="price">$35</p>
+              <button>Add to Cart</button>
         </div>
     </div>
   </main>
