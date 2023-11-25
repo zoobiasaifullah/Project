@@ -47,12 +47,12 @@ color: black;
 background-color: #ffe6ee;
 }
 #cart {
-margin-right: 10px;
+ margin: 10px;
 }
 #carousel {
   margin: 0 auto;
   max-width: 100%;
-  padding: 55px;
+  padding: 45px;
  }
  h3 {
   text-align: center;

@@ -24,9 +24,10 @@
 <!-- Navigation Bar-->
 <nav class="navbar navbar-expand-md">
     <div class="container-fluid">
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggle btn btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+            </svg>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
@@ -50,10 +51,10 @@
                     </ul>
                 </li>
             </ul>
-            <a id="cart" href="cart.html" class="btn btn-outline-dark" role="button" data-bs-toggle="button">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-heart" viewBox="0 0 16 16">
+            <a href="cart.html" id="cart" target="_self">
+                <button class="btn btn-outline-dark"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-heart" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0M14 14V5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1M8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/>
-                </svg>
+                </svg></button>
             </a>
             <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -62,7 +63,10 @@
         </div>
     </div>
 </nav>
-        <div class="container" style="padding-top: 40px;">
+
+<!--Contact Form-->
+
+<div class="container" style="padding-top: 40px;">
           <div class="row">
             <form action="">
                 <div class="form-group">
@@ -88,9 +92,9 @@
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
-        </row>
-</div>
         </div>
+</div>
+
  <footer class="footer page-footer font-small ">
      <div class="container">
         <div class="row">
