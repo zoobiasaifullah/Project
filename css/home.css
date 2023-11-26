@@ -39,7 +39,11 @@
 .navbar {
   background-color: #ffe6ee;
 }
-
+@media screen and (min-width: 770px) {
+  .navbar-toggle {
+    display: none;
+  }
+}
 .navbar-collapse a {
 color: black;
 }
