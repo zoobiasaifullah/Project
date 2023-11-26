@@ -1,20 +1,31 @@
+/*DEVELOPER: Zoobia Saifullah Syeda, IS117-003, Fall 2023*/
+
+/*CSS in this file is for ALL pages across the website */
+
+/* Universal CSS */
+
   *{
   margin: 0;
   padding:0;
   }
+
   a{
   text-decoration: none;
   color: white;
   }
+
   a:link {
   color: #f28fe2;
   }
+
   a:hover:focus {
   color: #f28fe2;
   }
+
   a:active {
   color: #f28fe2;
   }
+
  body{
   background-color: black;
   color: white;
@@ -22,65 +33,87 @@
   font-size: 16px;
   overflow-x: hidden;
  }
+
+/* Brand CSS */
+
  header h1{
  text-shadow: 1.5px 1.5px white;
  color: #ffe6ee;
  margin-top: 10px;
  padding: 15px;
  }
+
  header img {
   float: left;
   height: 80px;
   width: 80px;
  }
- .nav-brand {
+
+ /* CSS for nav*/
+
+.nav-brand {
   color: white;
  }
+
 .navbar {
   background-color: #ffe6ee;
 }
+
 @media screen and (min-width: 770px) {
   .navbar-toggle {
     display: none;
   }
 }
+
 .navbar-collapse a {
 color: black;
 }
+
+
 .dropdown-menu{
 background-color: #ffe6ee;
 }
+
 #cart {
  margin: 10px;
 }
 
+/* Form */
 label{
   color: #ffe6ee;
 }
+
+/*CSS for Home Page */
+
 #carousel {
   margin: 0 auto;
   max-width: 100%;
   padding: 45px;
  }
+
  h3 {
   text-align: center;
   margin: 55px;
   padding: 30px;
  }
+
  .carousel-inner img{
    object-fit: cover;
  }
+
  .card{
   margin: 55px;
   border:0;
   background-color: black;
   object-fit: cover;
  }
+
  .card h5{
   text-align: center;
  }
+
  .footer {
-     position: fixed;
+     position: sticky;
      left: 0;
      bottom: 0;
      width: 100%;
