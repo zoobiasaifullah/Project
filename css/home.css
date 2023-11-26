@@ -53,6 +53,10 @@ background-color: #ffe6ee;
 #cart {
  margin: 10px;
 }
+
+label{
+  color: #ffe6ee;
+}
 #carousel {
   margin: 0 auto;
   max-width: 100%;
