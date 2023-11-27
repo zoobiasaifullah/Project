@@ -1,6 +1,6 @@
 /*DEVELOPER: Zoobia Saifullah Syeda, IS117-003, Fall 2023*/
 
-/*CSS in this file is for product pages*/
+/*CSS in this file is for all other pages*/
 
 h2{
 color: white;
@@ -34,22 +34,31 @@ text-align: center;
     height: 100%;
   }
 }
+
 button{
-border-radius: 4px;
-padding: 5px 24px;
-border: none;
-background-color: #ffe6ee;
-color: black;
-font-size: 22px;
+ border-radius: 4px;
+ padding: 5px 24px;
+ border: none;
+ background-color: #ffe6ee;
+ color: black;
+ font-size: 22px;
 }
+
 button:hover:focus {
-color: #f28fe2;
+ color: #f28fe2;
 }
+
 p {
-margin: 0 auto;
-padding: 0 90px;
+ margin: 0 auto;
+ padding: 0 90px;
 }
+
 #checkout {
-padding-top: 40px;
-margin: 10px auto 80px;
+ padding-top: 40px;
+ margin: 10px auto 80px;
+}
+
+#contact {
+ padding-top: 40px;
+ margin: 10px auto 80px;
 }
