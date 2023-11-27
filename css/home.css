@@ -112,8 +112,8 @@ label{
   text-align: center;
  }
 
- .footer {
-     position: sticky;
+.footer {
+     position: fixed;
      left: 0;
      bottom: 0;
      width: 100%;
